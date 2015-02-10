@@ -1,0 +1,18 @@
+.icon{
+    font-size: 12pt;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    background: #666666;
+    border:none;
+}
+
+.icon:hover{
+    color: #aaaaaa;
+    background: #555555;
+    border:none;
+}
+
+.icon-list{
+}

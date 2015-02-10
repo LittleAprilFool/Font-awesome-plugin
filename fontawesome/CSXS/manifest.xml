@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ExtensionManifest ExtensionBundleId="me.littleaprilfool.fontawesome" ExtensionBundleName="fontawesome" ExtensionBundleVersion="1.0.0" Version="4.0">
+  <Author>
+    April Wang
+  </Author>
+  <ExtensionList>
+    <Extension Id="me.littleaprilfool.fontawesome.extension" Version="1.9.2"/>
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="PHXS" Version="[15.0,15.9]"/>
+      <Host Name="PHSP" Version="[15.0,15.9]"/>
+    </HostList>
+    <LocaleList>
+      <Locale Code="All"/>
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="5.0"/>
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="me.littleaprilfool.fontawesome.extension">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./fontawesome.html</MainPath>
+          <ScriptPath>./host/fontawesome.jsx</ScriptPath>
+        </Resources>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>Fontawesome</Menu>
+          <Geometry>
+            <MinSize>
+              <Height>400</Height>
+              <Width>216</Width>
+            </MinSize>
+            <Size>
+              <Height>400</Height>
+              <Width>216</Width>
+            </Size>
+          </Geometry>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>
