@@ -1,16 +1,13 @@
-#Hello
-I am a simple photoshop plugin for designers to use fontawesome more friendly in photoshop, which means instead of opening cheatsheet then copy and paste, I can help you find the icons you want inside photoshop.
+# A simple photoshop plugin
 
-#How to install
-//only for Creative Cloud 2014 Users
+This is a simple photoshop plugin which can help users find the icons inside photoshop conveniently, instead of opening cheatsheet then doing copy and paste.
 
-//only used as debug mode
 
-After downloading source file, copy ./fontawesome to /Users/username/Library/Application Support/Adobe/CEP/extensions/ (If you can't find the directory, then create one. )
+## Installation (for Creative Cloud 2014 Users)
 
-Then open Photoshop CC 2014, go to Window -> Extensions -> Fontawesome
+  1. Download source file 
+  2. Copy ./fontawesome to /Users/username/Library/Application Support/Adobe/CEP/extensions/ (If you can't find the directory, then create one. )
+  3. Open Photoshop CC 2014, go to Window -> Extensions -> Fontawesome
 
-Enjoy it (๑´ڡ`๑)
-
-#Screenshot
+# Screenshot
 ![](./screenshot/pic01)
